@@ -7,23 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		68CC018AAC9BA72DBE5922F7 /* Pods_Tennis_Tutor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ADB0763450C04222EB8CEBE /* Pods_Tennis_Tutor.framework */; };
 		C523EFF824B60F8C0079035A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C523EFF724B60F8C0079035A /* AppDelegate.swift */; };
 		C523EFFA24B60F8C0079035A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C523EFF924B60F8C0079035A /* SceneDelegate.swift */; };
-		C523EFFC24B60F8C0079035A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C523EFFB24B60F8C0079035A /* ViewController.swift */; };
+		C523EFFC24B60F8C0079035A /* LearnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C523EFFB24B60F8C0079035A /* LearnViewController.swift */; };
 		C523EFFF24B60F8D0079035A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C523EFFD24B60F8D0079035A /* Main.storyboard */; };
 		C523F00124B60F960079035A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C523F00024B60F960079035A /* Assets.xcassets */; };
 		C523F00424B60F960079035A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C523F00224B60F960079035A /* LaunchScreen.storyboard */; };
+		C559821324C1287F00156093 /* Brain.swift in Sources */ = {isa = PBXBuildFile; fileRef = C559821224C1287E00156093 /* Brain.swift */; };
+		C559822724C38F0E00156093 /* PlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C559822624C38F0E00156093 /* PlayViewController.swift */; };
+		C559822D24CAAC6C00156093 /* PlayerFilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C559822C24CAAC6C00156093 /* PlayerFilterViewController.swift */; };
+		C559822F24CB6EFD00156093 /* LearnForehandsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C559822E24CB6EFC00156093 /* LearnForehandsViewController.swift */; };
+		C559823124CB6F3500156093 /* LearnBackhandsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C559823024CB6F3500156093 /* LearnBackhandsViewController.swift */; };
+		C559823324CB6F6A00156093 /* LearnServesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C559823224CB6F6A00156093 /* LearnServesViewController.swift */; };
+		C559823524CB6F8600156093 /* LearnModifiedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C559823424CB6F8600156093 /* LearnModifiedViewController.swift */; };
+		C559823724CB6FA500156093 /* LearnVolleysViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C559823624CB6FA500156093 /* LearnVolleysViewController.swift */; };
+		C559823924CB6FCC00156093 /* LearnSlicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C559823824CB6FCC00156093 /* LearnSlicesViewController.swift */; };
+		C559823B24CB6FEC00156093 /* LearnStrategyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C559823A24CB6FEC00156093 /* LearnStrategyViewController.swift */; };
+		C559823D24CB704100156093 /* ChooseLearnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C559823C24CB704100156093 /* ChooseLearnViewController.swift */; };
+		C559823F24CBCF1A00156093 /* YourProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C559823E24CBCF1700156093 /* YourProfileViewController.swift */; };
+		C559824124CBD7E900156093 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C559824024CBD7E800156093 /* EditProfileViewController.swift */; };
+		C56A620D24D0A19C0001D957 /* LocationUpdater.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56A620C24D0A19B0001D957 /* LocationUpdater.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2ADB0763450C04222EB8CEBE /* Pods_Tennis_Tutor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tennis_Tutor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1893866C7BCEBCAD0FEF281 /* Pods-Tennis Tutor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tennis Tutor.debug.xcconfig"; path = "Target Support Files/Pods-Tennis Tutor/Pods-Tennis Tutor.debug.xcconfig"; sourceTree = "<group>"; };
+		A3E85B43DE6850A76D153040 /* Pods-Tennis Tutor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tennis Tutor.release.xcconfig"; path = "Target Support Files/Pods-Tennis Tutor/Pods-Tennis Tutor.release.xcconfig"; sourceTree = "<group>"; };
 		C523EFF424B60F8C0079035A /* Tennis Tutor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tennis Tutor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C523EFF724B60F8C0079035A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C523EFF924B60F8C0079035A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C523EFFB24B60F8C0079035A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C523EFFB24B60F8C0079035A /* LearnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnViewController.swift; sourceTree = "<group>"; };
 		C523EFFE24B60F8D0079035A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C523F00024B60F960079035A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C523F00324B60F960079035A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C523F00524B60F960079035A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C559821224C1287E00156093 /* Brain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brain.swift; sourceTree = "<group>"; };
+		C559822624C38F0E00156093 /* PlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayViewController.swift; sourceTree = "<group>"; };
+		C559822C24CAAC6C00156093 /* PlayerFilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerFilterViewController.swift; sourceTree = "<group>"; };
+		C559822E24CB6EFC00156093 /* LearnForehandsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnForehandsViewController.swift; sourceTree = "<group>"; };
+		C559823024CB6F3500156093 /* LearnBackhandsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnBackhandsViewController.swift; sourceTree = "<group>"; };
+		C559823224CB6F6A00156093 /* LearnServesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnServesViewController.swift; sourceTree = "<group>"; };
+		C559823424CB6F8600156093 /* LearnModifiedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnModifiedViewController.swift; sourceTree = "<group>"; };
+		C559823624CB6FA500156093 /* LearnVolleysViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnVolleysViewController.swift; sourceTree = "<group>"; };
+		C559823824CB6FCC00156093 /* LearnSlicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnSlicesViewController.swift; sourceTree = "<group>"; };
+		C559823A24CB6FEC00156093 /* LearnStrategyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnStrategyViewController.swift; sourceTree = "<group>"; };
+		C559823C24CB704100156093 /* ChooseLearnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseLearnViewController.swift; sourceTree = "<group>"; };
+		C559823E24CBCF1700156093 /* YourProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourProfileViewController.swift; sourceTree = "<group>"; };
+		C559824024CBD7E800156093 /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		C56A620C24D0A19B0001D957 /* LocationUpdater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationUpdater.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +63,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68CC018AAC9BA72DBE5922F7 /* Pods_Tennis_Tutor.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		221999656DB86EBC74BF6F3C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A1893866C7BCEBCAD0FEF281 /* Pods-Tennis Tutor.debug.xcconfig */,
+				A3E85B43DE6850A76D153040 /* Pods-Tennis Tutor.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4920CF42C61A88BD9E612203 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2ADB0763450C04222EB8CEBE /* Pods_Tennis_Tutor.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C523EFEB24B60F8C0079035A = {
 			isa = PBXGroup;
 			children = (
 				C523EFF624B60F8C0079035A /* Tennis Tutor */,
 				C523EFF524B60F8C0079035A /* Products */,
+				221999656DB86EBC74BF6F3C /* Pods */,
+				4920CF42C61A88BD9E612203 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +109,53 @@
 		C523EFF624B60F8C0079035A /* Tennis Tutor */ = {
 			isa = PBXGroup;
 			children = (
+				C559821424C1289700156093 /* Model */,
 				C523EFF724B60F8C0079035A /* AppDelegate.swift */,
 				C523EFF924B60F8C0079035A /* SceneDelegate.swift */,
-				C523EFFB24B60F8C0079035A /* ViewController.swift */,
-				C523EFFD24B60F8D0079035A /* Main.storyboard */,
+				C523F02B24C121810079035A /* View */,
+				C523F02C24C121C90079035A /* Controller */,
 				C523F00024B60F960079035A /* Assets.xcassets */,
 				C523F00224B60F960079035A /* LaunchScreen.storyboard */,
 				C523F00524B60F960079035A /* Info.plist */,
 			);
 			path = "Tennis Tutor";
+			sourceTree = "<group>";
+		};
+		C523F02B24C121810079035A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C523EFFD24B60F8D0079035A /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C523F02C24C121C90079035A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C523EFFB24B60F8C0079035A /* LearnViewController.swift */,
+				C559822624C38F0E00156093 /* PlayViewController.swift */,
+				C559822C24CAAC6C00156093 /* PlayerFilterViewController.swift */,
+				C559822E24CB6EFC00156093 /* LearnForehandsViewController.swift */,
+				C559823024CB6F3500156093 /* LearnBackhandsViewController.swift */,
+				C559823224CB6F6A00156093 /* LearnServesViewController.swift */,
+				C559823424CB6F8600156093 /* LearnModifiedViewController.swift */,
+				C559823624CB6FA500156093 /* LearnVolleysViewController.swift */,
+				C559823824CB6FCC00156093 /* LearnSlicesViewController.swift */,
+				C559823A24CB6FEC00156093 /* LearnStrategyViewController.swift */,
+				C559823C24CB704100156093 /* ChooseLearnViewController.swift */,
+				C559823E24CBCF1700156093 /* YourProfileViewController.swift */,
+				C559824024CBD7E800156093 /* EditProfileViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C559821424C1289700156093 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C559821224C1287E00156093 /* Brain.swift */,
+				C56A620C24D0A19B0001D957 /* LocationUpdater.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +165,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C523F00824B60F960079035A /* Build configuration list for PBXNativeTarget "Tennis Tutor" */;
 			buildPhases = (
+				D35038C0C412B061ED75BBCE /* [CP] Check Pods Manifest.lock */,
 				C523EFF024B60F8C0079035A /* Sources */,
 				C523EFF124B60F8C0079035A /* Frameworks */,
 				C523EFF224B60F8C0079035A /* Resources */,
+				B0FBF33104676375524347A6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,13 +226,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B0FBF33104676375524347A6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tennis Tutor/Pods-Tennis Tutor-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tennis Tutor/Pods-Tennis Tutor-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tennis Tutor/Pods-Tennis Tutor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D35038C0C412B061ED75BBCE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tennis Tutor-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C523EFF024B60F8C0079035A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C523EFFC24B60F8C0079035A /* ViewController.swift in Sources */,
+				C56A620D24D0A19C0001D957 /* LocationUpdater.swift in Sources */,
+				C559824124CBD7E900156093 /* EditProfileViewController.swift in Sources */,
+				C559823D24CB704100156093 /* ChooseLearnViewController.swift in Sources */,
+				C523EFFC24B60F8C0079035A /* LearnViewController.swift in Sources */,
+				C559823124CB6F3500156093 /* LearnBackhandsViewController.swift in Sources */,
+				C559823F24CBCF1A00156093 /* YourProfileViewController.swift in Sources */,
+				C559823324CB6F6A00156093 /* LearnServesViewController.swift in Sources */,
+				C559822724C38F0E00156093 /* PlayViewController.swift in Sources */,
+				C559822D24CAAC6C00156093 /* PlayerFilterViewController.swift in Sources */,
 				C523EFF824B60F8C0079035A /* AppDelegate.swift in Sources */,
+				C559823724CB6FA500156093 /* LearnVolleysViewController.swift in Sources */,
+				C559822F24CB6EFD00156093 /* LearnForehandsViewController.swift in Sources */,
+				C559823B24CB6FEC00156093 /* LearnStrategyViewController.swift in Sources */,
+				C559821324C1287F00156093 /* Brain.swift in Sources */,
+				C559823524CB6F8600156093 /* LearnModifiedViewController.swift in Sources */,
+				C559823924CB6FCC00156093 /* LearnSlicesViewController.swift in Sources */,
 				C523EFFA24B60F8C0079035A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,15 +431,17 @@
 		};
 		C523F00924B60F960079035A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1893866C7BCEBCAD0FEF281 /* Pods-Tennis Tutor.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H77LY4JCN7;
 				INFOPLIST_FILE = "Tennis Tutor/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tennistutor.Tennis-Tutor";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tennis-Tutor";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -299,15 +450,17 @@
 		};
 		C523F00A24B60F960079035A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3E85B43DE6850A76D153040 /* Pods-Tennis Tutor.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H77LY4JCN7;
 				INFOPLIST_FILE = "Tennis Tutor/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tennistutor.Tennis-Tutor";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tennis-Tutor";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
